@@ -38,7 +38,7 @@ def get_latest_news(limit=5):
             if img_tag and img_tag.get("src"):
                 img_url = img_tag["src"]
 
-        =
+        NEWS_URL = "https://cointelegraph.com/rss"
         try:
             translated = GoogleTranslator(source="auto", target="id").translate(title)
         except Exception:
