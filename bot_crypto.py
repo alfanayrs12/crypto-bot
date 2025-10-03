@@ -2,7 +2,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
-from telegram.ext import Updater, CommandHandler
+import imghdr_pure as imghdr
+from telegram.ext import Application, CommandHandler
 from flask import Flask
 import threading
 import logging
