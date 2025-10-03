@@ -5,3 +5,4 @@ deep-translator
 flask
 lxml
 gunicorn
+imghdr-pure
